@@ -2,6 +2,7 @@ extends _layout.pug
 
 block content
   div(style="width: 300px;")
-    a.e-btn(href="" target="_blank")= data("form.btn.submit.val")
-    a.e-btn.error(href="" target="_blank") Error
-    a.e-btn.ok(href="" target="_blank") Ok
+    //- TODO изменить адреса ссылок на нужные
+    a.e-btn.js-popup-btn(href="http://form.web/" target="_blank")= data("form.btn.submit.val")
+    a.e-btn.ok.js-popup-btn(href="http://form.web/ok.html" target="_blank") Ok
+    a.e-btn.error.js-popup-btn(href="http://form.web/error.html" target="_blank") Error

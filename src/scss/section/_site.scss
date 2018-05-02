@@ -1,0 +1,19 @@
+.s-site {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  min-height: 100vh;
+  background: rgba(#000, 0.85);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+
+  &__content {
+    position: relative;
+    width: 300px;
+    padding-top: 50px;
+    display: flex;
+    flex: 1 0 auto;
+    align-self: center;
+  }
+}
